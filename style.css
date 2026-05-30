@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+
+.my-super-btn {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  background: #00aaff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.my-super-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #00aaff;
+}
